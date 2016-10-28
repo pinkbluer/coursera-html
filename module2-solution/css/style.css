@@ -1,15 +1,66 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>this is a test webpage.</title>
-	<style type="text/css">
-		h1{
-			color: red;
-		}
-	</style>
-</head>
-<body>
-<h1>It's fun.</h1>
-<div><p>learn a lot here!</p></div>
-</body>
-</html>
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+	font-size: 175%;
+}
+
+div{
+	position: relative;
+}
+
+.dish{
+	background-color: gray;
+	border: 1px solid black;
+	margin: 15px;
+
+}
+
+.name{
+	background-color: yellow;
+	position: absolute;
+	padding: 3px;
+	border: 1px solid black;
+	margin: 0;
+	text-align: center;
+	font-size: 125%;
+	width: 120px;
+	top: 15px;
+	right: 15px;
+
+}
+p{
+	margin-top: 35px;
+}
+
+@media (min-width: 992px){
+	.col-lg-4{
+		float: left;
+		/*border: 1px solid black;*/
+		width: 33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		float: left;
+		/*border: 1px solid black;*/
+		width: 50%;
+	}
+	.col-md-12{
+		float: left;
+		/*border: 1px solid black;*/
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px){
+	.col-sm-12{
+		float: left;
+		/*border: 1px solid black;*/
+		width: 100%;
+	}
+
+}
