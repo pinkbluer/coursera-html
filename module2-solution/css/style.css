@@ -15,6 +15,7 @@ div{
 	background-color: gray;
 	border: 1px solid black;
 	margin: 15px;
+	height: 135px;
 
 }
 
@@ -31,8 +32,16 @@ div{
 	right: 15px;
 
 }
+
+#Chicken{
+	background-color: red;
+}
+#Beef{
+	background-color: blue;
+}
 p{
 	margin-top: 35px;
+	padding: 10px;
 }
 
 @media (min-width: 992px){
