@@ -1,0 +1,40 @@
+body {
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#navbar {
+	background-color: #f6b319;
+}
+
+.navbar-brand {
+	font-size: 1.6em;
+	color: solid black;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+  background-color: yellow;
+
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+
+}
+
+h1 {
+	color: white;
+}
+
+#content {
+	margin: 20px;
+	padding: 5px 20px;
+	background-color: #f6b319;
+	height: 1000px;
+}
